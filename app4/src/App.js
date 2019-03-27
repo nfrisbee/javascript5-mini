@@ -21,7 +21,7 @@ class App extends Component {
 
   render() {
     const cars = this.state.cars.map(car => (
-      <div>
+      <div key={car, id}>
        <h3> {car.year} {car.make} {car.model} </h3>
        <p>{car.price}</p>
       </div>
