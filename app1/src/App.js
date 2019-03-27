@@ -5,14 +5,14 @@ import './App.css';
 class App extends Component {
   constuctor(props) {
 
-    this.state = {
+    this.setstate = {
       myName: 'Joe'
     }
   }
   render() {
     return (
       <div className="App">
-        My name is { this.state.myName }
+        My name is {this.myName}
       </div>
     );
   }
